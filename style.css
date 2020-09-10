@@ -3,14 +3,46 @@
     text-align: center;
 }
 
-.weatherform
+#weatherform
 {
-    text-align: center;
-    margin-top: 10%;
+    padding-top: 30px;
 }
 
-.list2
+.countries
 {
-    padding: 20px;
+    float: left;
+    margin-left: 90px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: .5em;
 }
 
+.states
+{
+    display: inline-block;
+    margin-left: 19%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+}
+
+.cities
+{
+    float: right;
+    margin-right: 120px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+}

@@ -11,27 +11,19 @@
         <h2 id="heading">Weather details</h2>
     </div>
 
-    <form class="weatherform">
-        <div class="list1">
-            <label for="">List out country : </label>
-            <select id="country" class="country">
-                <option value="">Select Country</option>
-            </select>
-        </div>
+    <div id="weatherform">
+        <select name="country" class="countries" id="countryId">
+            <option value="">Select Country</option>
+        </select>
+        <select name="state" class="states" id="stateId">
+            <option value="">Select State</option>
+        </select>
+        <select name="city" class="cities" id="cityId">
+            <option value="">Select City</option>
+        </select>
+    </div>
 
-        <div class="list2">
-            <label for="">List out state : </label>
-            <select id="state" class="state">
-                <option value="">Select State</option>
-            </select>
-        </div>
-
-        <div class="list3">
-            <label for="">List out city : </label>
-            <select id="city" class="city">
-                <option value="">Select City</option>
-            </select>
-        </div>
-    </form>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script src="//geodata.solutions/includes/countrystatecity.js"></script>
 </body>
 </html>
